@@ -1,0 +1,45 @@
+h1{
+    text-align: center;
+}
+
+div .tabla{
+    width: 0;
+    margin: 0 auto 0 auto;
+    text-align: center;
+}
+
+/* estilos de la tabla */
+
+tr, th, td{
+    border: 1px solid black;
+}
+
+th{
+    border-top: 1px solid darkcyan;
+    border-bottom: 1px solid darkcyan;
+    background-color: rgb(100, 180, 100);
+}
+tr{
+    background-color: rgb(255, 206, 116);
+}
+
+/* estilos de th */
+.palabra{
+    padding-left: 4em;
+    padding-right: 4em;
+}
+.descripcion{
+    padding-left: 7em;
+    padding-right: 7em;
+}
+.Datosadicionales{
+    padding-left: 6em;
+    padding-right: 6em;
+}
+
+th, td{
+    padding: 0.2em 0.6em 0.2em 0.6em;
+}
+.tabla{
+    border-collapse: collapse;
+}
